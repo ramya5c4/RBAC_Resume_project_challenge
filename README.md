@@ -22,11 +22,11 @@
 </ul>
 <h2>How it works</h2>
 <ul>
-1.The user logs in securely.
-2.System identified role (e.g., HR, Finance, Engineering).
-3.The user submits a natural language question.
-4.The system applies RBAC rules to determine which documents the user can access.
-5.Only the authorized documents are retrieved from the vector database (ChromaDB).
-6.A language model (e.g.,LLaMA) reads the retrieved content.
-7.It generates a context-rich and secure response based on the user's role.
-8.The chatbot displays the answer in a user-friendly interface. </ul>
+<li>The user logs in securely.</li>
+<li>System identified role (e.g., HR, Finance, Engineering).</li>
+<li>The user submits a natural language question.</li>
+<li>The system applies RBAC rules to determine which documents the user can access.</li>
+<li>Only the authorized documents are retrieved from the vector database (ChromaDB).</li>
+<li>A language model (e.g.,LLaMA) reads the retrieved content.</li>
+<li>It generates a context-rich and secure response based on the user's role.</li>
+<li>The chatbot displays the answer in a user-friendly interface. </li></ul>
