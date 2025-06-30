@@ -12,11 +12,11 @@
   <li><b>Natural Language Queries: </b> Supports queries like “Show my reimbursements” or “List marketing campaign results”.</li>
 </ul>
 <h2> Technologies Used</h2>
-Component                             	Technology
------------------------------------------------------
-Backend API	                            FastAPI
-RAG Pipeline                           	LangChain
-Embedding Model	                        intfloat/e5-large-v2
-Vector DB                              	ChromaDB 
-LLM	                                    LLaMA
-UI                                      Streamlit
+<ul>
+<li><b>Backend API : </b> FastAPI</li>
+<li><b>	RAG Pipeline : </b> LangChain</li>
+<li><b>Embedding Model:</b> intfloat/e5-large-v2</li>
+<li><b>Vector DB  :</b> ChromaDB </li>
+<li><b>LLM	:</b> LLaMA</li>
+<li><b>UI  :</b> Streamlit</li>                                   
+</ul>
