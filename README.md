@@ -22,7 +22,7 @@
 </ul>
 
 
-<pre>```mermaid
+<pre lang="markdown">```mermaid
 flowchart TD
     A[🔐 User Logs In] --> B{🎭 Identify Role}
     B --> C[📄 Check Role Permissions]
