@@ -21,7 +21,7 @@
 <li><b>UI  :</b> Streamlit</li>                                   
 </ul>
 
-<pre lang="markdown">```mermaid
+<pre>```mermaid
 flowchart TD
     A[🔐 User Logs In] --> B{🎭 Identify Role}
     B --> C[📄 Check Role Permissions]
