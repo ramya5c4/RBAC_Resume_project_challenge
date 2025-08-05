@@ -30,3 +30,13 @@
 <li>A language model (e.g.,LLaMA) reads the retrieved content.</li>
 <li>It generates a context-rich and secure response based on the user's role.</li>
 <li>The chatbot displays the answer in a user-friendly interface. </li></ul>*/
+```mermaid
+flowchart TD
+    A[User Login] --> B{Identify Role}
+    B --> C[Check Role Permissions]
+    C --> D[User Inputs Query]
+    D --> E[Retrieve Relevant Docs (RAG)]
+    E --> F[Filter Docs by Role Access]
+    F --> G[Generate Response using LLM]
+    G --> H[Display Secure Answer to User]
+
