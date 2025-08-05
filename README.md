@@ -31,10 +31,7 @@ flowchart LR
     style F fill:#FCE7F3,stroke:#EC4899,stroke-width:2px
     style G fill:#FFE4E6,stroke:#EF4444,stroke-width:2px
 
-
-
-
- <h2> Technologies Used</h2>
+<h2> Technologies Used</h2>
  <ul>
  <li><b>Backend API : </b> FastAPI</li>
  <li><b>	RAG Pipeline : </b> LangChain</li>
