@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TD
     A[User Logs In] --> B{Identify Role}
     B --> C[Check Role Permissions]
     C --> D[User Submits Query]
