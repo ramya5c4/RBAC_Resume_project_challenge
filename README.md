@@ -27,7 +27,7 @@ flowchart TD
     A[User Logs In] --> B{Identify Role}
     B --> C[Check Role Permissions]
     C --> D[User Submits Query]
-    D --> E[Retrieve Role-Based Document - RAG]
+    D --> E[Retrieve Role-Based Document]
     E --> F[Generate Answer with LLM]
     F --> G[Return Context-Aware, Secure Response]
     %% Define node styles
