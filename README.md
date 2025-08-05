@@ -23,7 +23,7 @@
 <h2> Workflow</h2>
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[User Logs In] --> B{Identify Role}
     B --> C[Check Role Permissions]
     C --> D[User Submits Query]
@@ -38,5 +38,9 @@ flowchart LR
     style E fill:#E0E7FF,stroke:#6366F1,stroke-width:2px
     style F fill:#FCE7F3,stroke:#EC4899,stroke-width:2px
     style G fill:#FFE4E6,stroke:#EF4444,stroke-width:2px
+
+
+
+
 
 
