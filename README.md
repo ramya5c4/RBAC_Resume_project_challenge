@@ -20,6 +20,18 @@
  <li><b>LLM	:</b> LLaMA</li>
  <li><b>UI  :</b> Streamlit</li>                                   
  </ul>
+
+  <h2>Installation Instructions:</h2>
+    <ul>
+    <li><b>clone repo:(Github repository)</b></li>
+       git clone https://github.com/ramya5c4/RBAC_Resume_project_challenge.git</br>
+             cd RBAC_Resume_project_challenge
+    <li><b>Install dependencies:</b></li>
+        pip install streamlit</br>
+        pip install langchain_groq</br>
+        pip install langchain_community</br>
+        pip install fastapi uvicorn
+    </ul> 
 <h2> Workflow</h2>
 
 ```mermaid
