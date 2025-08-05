@@ -11,19 +11,11 @@
   <li><b> Embeddings: </b> Uses Hugging Face’s intfloat/e5-large-v2 model.</li>
   <li><b>Natural Language Queries: </b> Supports queries like “Show my reimbursements” or “List marketing campaign results”.</li>
 </ul>
-<h2> Technologies Used</h2>
-<ul>
-<li><b>Backend API : </b> FastAPI</li>
-<li><b>	RAG Pipeline : </b> LangChain</li>
-<li><b>Embedding Model:</b> intfloat/e5-large-v2</li>
-<li><b>Vector DB  :</b> ChromaDB </li>
-<li><b>LLM	:</b> LLaMA</li>
-<li><b>UI  :</b> Streamlit</li>                                   
-</ul>
+
 <h2> Workflow</h2>
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[User Logs In] --> B{Identify Role}
     B --> C[Check Role Permissions]
     C --> D[User Submits Query]
@@ -38,3 +30,13 @@ flowchart TD
     style E fill:#E0E7FF,stroke:#6366F1,stroke-width:2px
     style F fill:#FCE7F3,stroke:#EC4899,stroke-width:2px
     style G fill:#FFE4E6,stroke:#EF4444,stroke-width:2px
+
+<h2> Technologies Used</h2>
+<ul>
+<li><b>Backend API : </b> FastAPI</li>
+<li><b>	RAG Pipeline : </b> LangChain</li>
+<li><b>Embedding Model:</b> intfloat/e5-large-v2</li>
+<li><b>Vector DB  :</b> ChromaDB </li>
+<li><b>LLM	:</b> LLaMA</li>
+<li><b>UI  :</b> Streamlit</li>                                   
+</ul>
