@@ -21,7 +21,7 @@
 <li><b>UI  :</b> Streamlit</li>                                   
 </ul>
 <h2>How it works</h2>
-<ul>
+/*<ul>
 <li>The user logs in securely.</li>
 <li>System identified role (e.g., HR, Finance, Engineering).</li>
 <li>The user submits a natural language question.</li>
@@ -29,4 +29,4 @@
 <li>Only the authorized documents are retrieved from the vector database (ChromaDB).</li>
 <li>A language model (e.g.,LLaMA) reads the retrieved content.</li>
 <li>It generates a context-rich and secure response based on the user's role.</li>
-<li>The chatbot displays the answer in a user-friendly interface. </li></ul>
+<li>The chatbot displays the answer in a user-friendly interface. </li></ul>*/
