@@ -1,0 +1,6 @@
+streamlit
+python
+langchain_community
+langchain
+langchain_groq
+fastapi
